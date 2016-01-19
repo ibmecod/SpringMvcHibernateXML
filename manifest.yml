@@ -1,0 +1,11 @@
+---
+applications:
+- path: target/SpringMvcHibernateXML-1.0.0-BUILD-SNAPSHOT.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: springmvchibernatexml-jbossapponliberty
+  host: springmvchibernatexml-jbossapponliberty
+  disk_quota: 1024M
+  services:
+  - SpringHibernate-MySQL
